@@ -1,0 +1,936 @@
+Object Type	Object ID	Object Name	Object Caption	Object Subtype	App Name
+TableData	4401	EXR Aging Report Buffer	Aging Report Buffer	Temporary	Dynamics BC Excel Reports
+TableData	4402	EXR Trial Balance Buffer	Trial Balance Buffer	Temporary	Dynamics BC Excel Reports
+TableData	4404	EXR Top Vendor Report Buffer	Top Vendor Data	Temporary	Dynamics BC Excel Reports
+TableData	4405	EXR Top Customer Report Buffer	Top Customer Data	Temporary	Dynamics BC Excel Reports
+TableData	50100	EnterpriseMasterTable	Enterprise Master Table	Normal	WYS002-MSMECustomization
+TableData	50200	PO & SO Link	PO & SO Link	Normal	WY-Customizations
+TableData	50201	Serial No Tracking	Serial No Tracking	Normal	WY-Customizations
+TableData	50202	Serial Tracking Log	Serial Tracking Log	Normal	WY-Customizations
+TableData	50203	Sale Order Upload Util Staging	Sale Order Upload Util Staging	Normal	WY-Customizations
+TableData	50251	Billing Frequency	Billing Frequency	Normal	WY-Customizations
+TableData	50252	Deferral Calculation Header	Deferral Calculation Header	Normal	WY-Customizations
+TableData	50253	Deferral Calculation Lines	Deferral Calculation Lines	Normal	WY-Customizations
+TableData	50254	Custom Notification Billing	Custom Notification Billing	Normal	WY-Customizations
+TableData	50255	Deferral Upload Staging	Deferral Upload Staging	Normal	WY-Customizations
+TableData	50256	After Invoice PO Link	After Invoice PO Link	Normal	WY-Customizations
+TableData	50287	Costing Reconciliation	Costing Reconciliation	Normal	WY-Customizations
+TableData	50289	Costing Reco Remaining Qty	Costing Reco Remaining Qty	Normal	WY-Customizations
+TableData	50290	Costing Reco Qty Sales	Costing Reco Qty Sales	Normal	WY-Customizations
+TableData	50291	Costing Reco Update	Costing Reco Update	Normal	WY-Customizations
+TableData	50292	Get Sales Line Staging	Get Sales Line Staging	Normal	WY-Customizations
+TableData	50293	Update Tally Document No.	Update Tally Document No.	Normal	WY-Customizations
+TableData	50294	Serial No Tracking New	Serial No Tracking New	Normal	WY-Customizations
+TableData	50500	TDS Summary Bridge table	TDS Summary Bridge table	Normal	WY-Reports
+TableData	50501	Register Bridge Table	Register Bridge Table	Normal	WY-Reports
+TableData	50502	Ledger Reconcilation	Ledger Reconcilation	Normal	WY-Reports
+TableData	50503	Balance Confirmation	Balance Confirmation	Normal	WY-Reports
+TableData	50505	Cloud Billing Contribution	Cloud Billing Contribution	Normal	WY-Reports
+TableData	50506	BKB and TDS Billing	BKB and TDS Billing	Normal	WY-Reports
+TableData	50507	Rebate and ORC bridge	Rebate and ORC bridge	Normal	WY-Reports
+TableData	50508	po Bridge Table	po Bridge Table	Normal	WY-Reports
+TableData	50509	pending order bridge	pending order bridge	Normal	WY-Reports
+TableData	50510	Monthly Debtors Bridge Table	Monthly Debtors Bridge Table	Normal	WY-Reports
+TableData	50511	TestCustAmnt	Customer Amount	Normal	WY-Reports
+TableData	50512	TestVendorAmnt	Vendor Amount_new	Normal	WY-Reports
+TableData	50513	Costing Reco Nov24	Costing Reco Nov24	Normal	WY-Reports
+TableData	50514	GL  entry update	GL  entry update	Normal	WY-Reports
+TableData	50515	Stock Bridge	Stock Bridge	Normal	WY-Reports
+TableData	50605	Sale Order UploadUtil Staging	Sale Order Upload Util Staging	Normal	WYS006-Sales Upload Utility
+TableData	50607	SO Comment staging table	SO Comment staging table	Normal	WYS006-Sales Upload Utility
+TableData	50651	Top Inv. Bridge table	Top Inv. Bridge table	Normal	WYS-MIS Reports
+TableData	50703	ItemStagingTable	Item Staging Master	Normal	WYS005-BCE-CRM Integration
+TableData	50704	SalesQtoSalesOStaggingTable	Sales Quote to Sales Order Stagging Master	Normal	WYS005-BCE-CRM Integration
+TableData	50705	CommentStagingTable	Comment Staging Master	Normal	WYS005-BCE-CRM Integration
+TableData	50706	ProductImportTable	Product Master	Normal	WYS005-BCE-CRM Integration
+TableData	50731	CustCRMBusinessGroupTable	CustCRMBusinessGroupTable	Normal	WYS005-BCE-CRM Integration
+TableData	50735	ItemCRMBusinessGroupTable	ItemCRMBusinessGroupTable	Normal	WYS005-BCE-CRM Integration
+TableData	50742	CustomerStagingMaster	Customer Staging Master	Normal	WYS005-BCE-CRM Integration
+TableData	50900	GL Entry Update-Vserve	GL Entry Update-Vserve	Normal	WY-Additional CR
+TableData	50901	Item Appl. Entry Update-Vserve	Item Appl. Entry Update-Vserve	Normal	WY-Additional CR
+TableData	50902	Item Ledg RemQty Update-Vserve	Item Ledg RemQty Update-Vserve	Normal	WY-Additional CR
+TableData	50904	Sales Line Upload-Vserve	Sales Line Upload-Vserve	Normal	WY-Additional CR
+TableData	60101	LUTMaster	LOA/LUT Master	Normal	WYS000-Customization
+TableData	60102	DeclarationTemplateTable	Declaration Template	Normal	WYS000-Customization
+TableData	60103	EndConsumerDetailsTable	End Consumer Details	Normal	WYS000-Customization
+TableData	60104	EInvoiceLedgerEntries	EInvoiceLedgerEntries	Normal	WYS000-Customization
+TableData	60105	E-way Bill Details	E-way Bill Details	Normal	WYS000-Customization
+TableData	60106	New E-way Bill Details	New E-way Bill Details	Normal	WYS000-Customization
+TableData	60107	UpdateData	UpdateData	Normal	WYS000-Customization
+TableData	60108	HSN-Table Report	HSN-Table Report	Normal	WYS000-Customization
+Table	4401	EXR Aging Report Buffer	Aging Report Buffer	Temporary	Dynamics BC Excel Reports
+Table	4402	EXR Trial Balance Buffer	Trial Balance Buffer	Temporary	Dynamics BC Excel Reports
+Table	4404	EXR Top Vendor Report Buffer	Top Vendor Data	Temporary	Dynamics BC Excel Reports
+Table	4405	EXR Top Customer Report Buffer	Top Customer Data	Temporary	Dynamics BC Excel Reports
+Table	50100	EnterpriseMasterTable	Enterprise Master Table	Normal	WYS002-MSMECustomization
+Table	50200	PO & SO Link	PO & SO Link	Normal	WY-Customizations
+Table	50201	Serial No Tracking	Serial No Tracking	Normal	WY-Customizations
+Table	50202	Serial Tracking Log	Serial Tracking Log	Normal	WY-Customizations
+Table	50203	Sale Order Upload Util Staging	Sale Order Upload Util Staging	Normal	WY-Customizations
+Table	50251	Billing Frequency	Billing Frequency	Normal	WY-Customizations
+Table	50252	Deferral Calculation Header	Deferral Calculation Header	Normal	WY-Customizations
+Table	50253	Deferral Calculation Lines	Deferral Calculation Lines	Normal	WY-Customizations
+Table	50254	Custom Notification Billing	Custom Notification Billing	Normal	WY-Customizations
+Table	50255	Deferral Upload Staging	Deferral Upload Staging	Normal	WY-Customizations
+Table	50256	After Invoice PO Link	After Invoice PO Link	Normal	WY-Customizations
+Table	50287	Costing Reconciliation	Costing Reconciliation	Normal	WY-Customizations
+Table	50289	Costing Reco Remaining Qty	Costing Reco Remaining Qty	Normal	WY-Customizations
+Table	50290	Costing Reco Qty Sales	Costing Reco Qty Sales	Normal	WY-Customizations
+Table	50291	Costing Reco Update	Costing Reco Update	Normal	WY-Customizations
+Table	50292	Get Sales Line Staging	Get Sales Line Staging	Normal	WY-Customizations
+Table	50293	Update Tally Document No.	Update Tally Document No.	Normal	WY-Customizations
+Table	50294	Serial No Tracking New	Serial No Tracking New	Normal	WY-Customizations
+Table	50500	TDS Summary Bridge table	TDS Summary Bridge table	Normal	WY-Reports
+Table	50501	Register Bridge Table	Register Bridge Table	Normal	WY-Reports
+Table	50502	Ledger Reconcilation	Ledger Reconcilation	Normal	WY-Reports
+Table	50503	Balance Confirmation	Balance Confirmation	Normal	WY-Reports
+Table	50505	Cloud Billing Contribution	Cloud Billing Contribution	Normal	WY-Reports
+Table	50506	BKB and TDS Billing	BKB and TDS Billing	Normal	WY-Reports
+Table	50507	Rebate and ORC bridge	Rebate and ORC bridge	Normal	WY-Reports
+Table	50508	po Bridge Table	po Bridge Table	Normal	WY-Reports
+Table	50509	pending order bridge	pending order bridge	Normal	WY-Reports
+Table	50510	Monthly Debtors Bridge Table	Monthly Debtors Bridge Table	Normal	WY-Reports
+Table	50511	TestCustAmnt	Customer Amount	Normal	WY-Reports
+Table	50512	TestVendorAmnt	Vendor Amount_new	Normal	WY-Reports
+Table	50513	Costing Reco Nov24	Costing Reco Nov24	Normal	WY-Reports
+Table	50514	GL  entry update	GL  entry update	Normal	WY-Reports
+Table	50515	Stock Bridge	Stock Bridge	Normal	WY-Reports
+Table	50605	Sale Order UploadUtil Staging	Sale Order Upload Util Staging	Normal	WYS006-Sales Upload Utility
+Table	50607	SO Comment staging table	SO Comment staging table	Normal	WYS006-Sales Upload Utility
+Table	50651	Top Inv. Bridge table	Top Inv. Bridge table	Normal	WYS-MIS Reports
+Table	50703	ItemStagingTable	Item Staging Master	Normal	WYS005-BCE-CRM Integration
+Table	50704	SalesQtoSalesOStaggingTable	Sales Quote to Sales Order Stagging Master	Normal	WYS005-BCE-CRM Integration
+Table	50705	CommentStagingTable	Comment Staging Master	Normal	WYS005-BCE-CRM Integration
+Table	50706	ProductImportTable	Product Master	Normal	WYS005-BCE-CRM Integration
+Table	50731	CustCRMBusinessGroupTable	CustCRMBusinessGroupTable	Normal	WYS005-BCE-CRM Integration
+Table	50735	ItemCRMBusinessGroupTable	ItemCRMBusinessGroupTable	Normal	WYS005-BCE-CRM Integration
+Table	50742	CustomerStagingMaster	Customer Staging Master	Normal	WYS005-BCE-CRM Integration
+Table	50900	GL Entry Update-Vserve	GL Entry Update-Vserve	Normal	WY-Additional CR
+Table	50901	Item Appl. Entry Update-Vserve	Item Appl. Entry Update-Vserve	Normal	WY-Additional CR
+Table	50902	Item Ledg RemQty Update-Vserve	Item Ledg RemQty Update-Vserve	Normal	WY-Additional CR
+Table	50904	Sales Line Upload-Vserve	Sales Line Upload-Vserve	Normal	WY-Additional CR
+Table	60101	LUTMaster	LOA/LUT Master	Normal	WYS000-Customization
+Table	60102	DeclarationTemplateTable	Declaration Template	Normal	WYS000-Customization
+Table	60103	EndConsumerDetailsTable	End Consumer Details	Normal	WYS000-Customization
+Table	60104	EInvoiceLedgerEntries	EInvoiceLedgerEntries	Normal	WYS000-Customization
+Table	60105	E-way Bill Details	E-way Bill Details	Normal	WYS000-Customization
+Table	60106	New E-way Bill Details	New E-way Bill Details	Normal	WYS000-Customization
+Table	60107	UpdateData	UpdateData	Normal	WYS000-Customization
+Table	60108	HSN-Table Report	HSN-Table Report	Normal	WYS000-Customization
+Report	4402	EXR Aged Accounts Rec Excel	Aged Accounts Receivable Excel (Preview)		Dynamics BC Excel Reports
+Report	4403	EXR Aged Acc Payable Excel	Aged Accounts Payable Excel (Preview)		Dynamics BC Excel Reports
+Report	4404	EXR Vendor Top List	Vendor - Top List Excel (Preview)		Dynamics BC Excel Reports
+Report	4405	EXR Trial Balance Excel	Trial Balance Excel (Preview)		Dynamics BC Excel Reports
+Report	4406	EXR Trial BalanceBudgetExcel	Trial Balance/Budget Excel (Preview)		Dynamics BC Excel Reports
+Report	4407	EXR Trial Bal. Prev Year Excel	Trial Balance/Previous Year Excel (Preview)		Dynamics BC Excel Reports
+Report	4408	EXR Trial Bal by Period Excel	Trial Balance by Period Excel (Preview)		Dynamics BC Excel Reports
+Report	4409	EXR Customer Top List	Customer - Top List Excel (Preview)		Dynamics BC Excel Reports
+Report	4410	EXR Consolidated Trial Balance	Consolidated Trial Balance Excel (Preview)		Dynamics BC Excel Reports
+Report	4411	EXR Fixed Asset Details Excel	Fixed Asset Details Excel (Preview)		Dynamics BC Excel Reports
+Report	4412	EXR Fixed Asset Analysis Excel	Fixed Asset Analysis Excel (Preview)		Dynamics BC Excel Reports
+Report	4413	EXR Fixed Asset Projected	Fixed Asset Projected Value Excel (Preview)		Dynamics BC Excel Reports
+Report	50200	Adjust Customer Entries	Adjust Customer Branch Accounting		WY-Customizations
+Report	50201	Adjust Vendor Entries	Adjust Vendor Branch Accounting		WY-Customizations
+Report	50202	Branch JV Adjusted	Inter Branch Accounting		WY-Customizations
+Report	50203	Serial No Tracking Batch	Serial No Tracking Batch		WY-Customizations
+Report	50204	Branch Acc & Predoc Update	Branch Acc & Predoc Update		WY-Customizations
+Report	50251	Revenue Recognition - Sales	Revenue Recognition - Sales		WY-Customizations
+Report	50252	Expense Recognition - Purchase	Expense Recognition - Purchase		WY-Customizations
+Report	50253	Parking to Expense Short Close	Parking to Expense Short Close		WY-Customizations
+Report	50254	Billing Notification Email	Billing Notification Email		WY-Customizations
+Report	50255	Revenue & Expense OPB Recogni	Revenue & Expense OPB Recognition		WY-Customizations
+Report	50256	Credit Memo Update	Serial No. Credit Memo Update		WY-Customizations
+Report	50258	Costing Reco Sales Qty	Costing Reco Sales Qty		WY-Customizations
+Report	50259	Costing GL Entry Update	Costing GL Entry Update		WY-Customizations
+Report	50260	SO PO Cr. Memo Update	SO PO Cr. Memo Update		WY-Customizations
+Report	50261	Report-Back End JV Post	Report-Back End JV Post		WY-Customizations
+Report	50262	Back End PI Diff JV Post	Back End PI Diff JV Post		WY-Customizations
+Report	50263	Po & So No Update GL Entry	Po & So No Update GL Entry		WY-Customizations
+Report	50264	All Backend Table Wise Fields	All Backend Table Wise Fields		WY-Customizations
+Report	50290	Update Tally Document No.	Update Tally Document No. Report		WY-Customizations
+Report	50501	Stock Summary	Stock Summary		WY-Reports
+Report	50502	Provision Unbilled Purchases	Provision Unbilled Purchases		WY-Reports
+Report	50503	TDS Summary Report	TDS Summary Report		WY-Reports
+Report	50504	MeWiseOutstandingReport	ME Wise Outstanding Report		WY-Reports
+Report	50505	Register Report	Sale/Purchase Register Reports		WY-Reports
+Report	50507	Ledger Reconcilation Report	Ledger Reconcilation Report_		WY-Reports
+Report	50508	Balance Report	Balance Confirmation Email Report		WY-Reports
+Report	50509	Cloud Billing Contribution	Cloud Billing Contribution		WY-Reports
+Report	50510	BKB and TDS billing	BKB and TSD Billing		WY-Reports
+Report	50513	ContributionSalesReport	Contribution Sales Report		WY-Reports
+Report	50514	daily po report	Daily PO Record Report		WY-Reports
+Report	50515	Pending Order Status1	Pending Order Status		WY-Reports
+Report	50516	PurcahseControlReport	Purchase Control Report		WY-Reports
+Report	50517	Rebate and ORC report1	Rebate and ORC report		WY-Reports
+Report	50518	Prepaid List Expense	Prepaid List Expense		WY-Reports
+Report	50519	Monthly Debtors Report	Monthly Debtors Report		WY-Reports
+Report	50520	Admin Outstanding	Administration Expenses Payable		WY-Reports
+Report	50521	Cust Top 10	Customer PAN wise Top Report		WY-Reports
+Report	50522	Vendor Top 3	Vendor PAN Wise Top Report		WY-Reports
+Report	50523	Outstanding MSME Report	Outstanding MSME Report		WY-Reports
+Report	50524	Daily Payable Report(MS_Paym)	Daily Payable Report		WY-Reports
+Report	50525	Bank_Rec_Repo_Test	Bank Reco Statement Report		WY-Reports
+Report	50526	SuggestBankAccReconLines_Wy	Suggest Bank Acc. Recon. Lines - Wyestek		WY-Reports
+Report	50527	BLE_Excel_Xport	Bank Payment Export		WY-Reports
+Report	50529	Costing GL Entry Update2	Costing GL Entry Update2		WY-Reports
+Report	50530	PO number update	PO number update		WY-Reports
+Report	50531	Stock Summary New	Stock MIS Report		WY-Reports
+Report	50652	Top Inventory Data	Top Inventory Data		WYS-MIS Reports
+Report	60101	SalesInvoiceReport	Sales Invoice Report		WYS000-Customization
+Report	60102	SalesInvoiceReportUSD	Sales Invoice Report USD		WYS000-Customization
+Report	60103	TDSDeclarationPrintReport	TDS Declaration Print		WYS000-Customization
+Report	60104	AcknowledgementLUT	Acknowledgement LUT		WYS000-Customization
+Report	60105	DeliveryNoteReport	Delivery Note Report		WYS000-Customization
+Report	60106	DebitNoteReport	Debit Note Report		WYS000-Customization
+Report	60107	SalesCreditNoteReport	Sales Credit Note Report		WYS000-Customization
+Report	60108	FinancialCreditNoteReport	Sales Financial Credit Note Report		WYS000-Customization
+Report	60109	LedgerReport	LedgerReport		WYS000-Customization
+Report	60110	EmailReportPO	Purchase Order Report		WYS000-Customization
+Report	60111	SalesInvReptwithoutIRN	Sales Invoice Report		WYS000-Customization
+Report	60112	UndoShipmentReport	UNDO Shipment Report		WYS000-Customization
+Report	60113	AmountInWordsReport	Amount In Words Report		WYS000-Customization
+Report	60114	EwaybillReport	E-Way Bill Report		WYS000-Customization
+Report	60115	DueDatesExpiredReport	Due Dates Expired Report		WYS000-Customization
+Report	60116	ExpectedReceiptDate	Expected Receipt Date		WYS000-Customization
+Report	70100	PurchaseOrderReport	Purchase Order Report		WYS004-Reports
+Report	70101	SalesOrderReport	Sales Order Report		WYS004-Reports
+Report	70102	Update Ledgers	Update Document		WYS004-Reports
+Report	70103	UpdatePostingNo	Update Posting No. New		WYS004-Reports
+Report	70104	Update CRM Order	Update CRM Order		WYS004-Reports
+Report	70105	Shipment COGS Report	Shipment COGS Report		WYS004-Reports
+Report	70106	Ship-Diff-COGS Report	Shipment Difference COGS Report		WYS004-Reports
+Report	70107	SO-PO Link Update	SO-PO Link Update		WYS004-Reports
+Report	70108	Mask Sales-Order-rpt	Mask Sales Order Report		WYS004-Reports
+Report	70109	Posted Voucher1	Posted Voucher Custom		WYS004-Reports
+Codeunit	4404	EXT Top Vendor Caption Handler	EXT Top Vendor Caption Handler		Dynamics BC Excel Reports
+Codeunit	4405	EXT Top Cust. Caption Handler	EXT Top Cust. Caption Handler		Dynamics BC Excel Reports
+Codeunit	4406	EXT Aged Acc. Caption Handler	EXT Aged Acc. Caption Handler		Dynamics BC Excel Reports
+Codeunit	4410	Trial Balance	Trial Balance		Dynamics BC Excel Reports
+Codeunit	4412	Excel Reports Telemetry	Excel Reports Telemetry		Dynamics BC Excel Reports
+Codeunit	50100	VendLedEntries	VendLedEntries		WYS002-MSMECustomization
+Codeunit	50200	PAN No. Flow For Customers	PAN No. Flow For Customers		WY-Customizations
+Codeunit	50201	PAN No. Flow For Vendors	PAN No. Flow For Vendors		WY-Customizations
+Codeunit	50202	Get Sales Lines	Get Sales Lines		WY-Customizations
+Codeunit	50203	Sale Header to Archive Header	Sale Header to Archive Header		WY-Customizations
+Codeunit	50204	Undo Receipt & Ship Serial	Undo Receipt & Ship Serial		WY-Customizations
+Codeunit	50211	Historical Ageing	Historical Ageing		WY-Customizations
+Codeunit	50251	Deferral Calculation	Deferral Calculation		WY-Customizations
+Codeunit	50252	Sales Credit Memo-Deferral	Sales Credit Memo-Deferral		WY-Customizations
+Codeunit	50253	Deferral Before Calculation	Deferral Before Calculation		WY-Customizations
+Codeunit	50254	Purch Credit Memo-Deferral	Purch Credit Memo-Deferral		WY-Customizations
+Codeunit	50256	Deferral Mid Calculation	Deferral Mid Calculation		WY-Customizations
+Codeunit	50257	Deferral Mid Calc Upload	Deferral Mid Calc Upload		WY-Customizations
+Codeunit	50258	Deferral Calculation Upload	Deferral Calculation Upload		WY-Customizations
+Codeunit	50259	Deferral Mid Calculations	Deferral Mid Calculations		WY-Customizations
+Codeunit	50260	Deferral Purch Invoice1	Deferral Purch Invoice1		WY-Customizations
+Codeunit	50261	SendEmail	SendEmail		WY-Customizations
+Codeunit	50262	Document Posted Successfully	Document Posted Successfully		WY-Customizations
+Codeunit	50263	Update Pre-Document No	Update Pre-Document No		WY-Customizations
+Codeunit	50264	Scheduler Serial No Tracking	Scheduler Serial No Tracking		WY-Customizations
+Codeunit	50299	SaleOrdCopyDocEvents	SaleOrdCopyDocEvents		WY-Customizations
+Codeunit	50500	codeUnit_Test	codeUnit_Test		WY-Reports
+Codeunit	50716	CustomerStagingCodeunit	CustomerStagingCodeunit		WYS005-BCE-CRM Integration
+Codeunit	50717	ItemStagingCodeunit	ItemStagingCodeunit		WYS005-BCE-CRM Integration
+Codeunit	50718	SalesQToSalesOStagingCodeunit	SalesQToSalesOStagingCodeunit		WYS005-BCE-CRM Integration
+Codeunit	50719	CommentStagingCodeunit	CommentStagingCodeunit		WYS005-BCE-CRM Integration
+Codeunit	50720	ProductImporttMasterCodeunit	ProductImporttMasterCodeunit		WYS005-BCE-CRM Integration
+Codeunit	50721	NewValidationofSalesQuote	NewValidationofSalesQuote		WYS005-BCE-CRM Integration
+Codeunit	50722	Sales-Post-CRM	Sales-Post-CRM		WYS005-BCE-CRM Integration
+Codeunit	50900	TDSAdjJou	TDSAdjJou		WY-Additional CR
+Codeunit	50902	BackendUpdateEvents	BackendUpdateEvents		WY-Additional CR
+Codeunit	60101	SalesPostBefore	SalesPostBefore		WYS000-Customization
+Codeunit	60102	PurchasePostBefore	PurchasePostBefore		WYS000-Customization
+Codeunit	60103	OnBeforeCopyNewAddressSO	OnBeforeCopyNewAddressSO		WYS000-Customization
+Codeunit	60104	OnBeforeCopyNewAddressPO	OnBeforeCopyNewAddressPO		WYS000-Customization
+Codeunit	60105	SalesLocationwiseNewPage	SalesLocationwiseNewPage		WYS000-Customization
+Codeunit	60106	RemarksCodeunit	RemarksCodeunit		WYS000-Customization
+Codeunit	60107	PostedSalesInvUpdateCodeunit	PostedSalesInvUpdateCodeunit		WYS000-Customization
+Codeunit	60108	PostedPurchInvUpdateCodeunit	PostedPurchInvUpdateCodeunit		WYS000-Customization
+Codeunit	60109	LutCodeunit	LutCodeunit		WYS000-Customization
+Codeunit	60110	EndConsumerCodeunit	EndConsumerCodeunit		WYS000-Customization
+Codeunit	60111	IrnEwayTaxableApiToken	IrnEwayTaxableApiToken		WYS000-Customization
+Codeunit	60112	IrnEwayExpWithoutPaymentTrue	IrnEwayExpWithoutPaymentTrue		WYS000-Customization
+Codeunit	60113	IrnEwaySezWithoutPayTrue	IrnEwaySezWithoutPayTrue		WYS000-Customization
+Codeunit	60114	IrnEwaySalesCrMemo	IrnEwaySalesCrMemo		WYS000-Customization
+Codeunit	60115	IrnEwayExpWithoutPaymentTrueSC	IrnEwayExpWithoutPaymentTrueSC		WYS000-Customization
+Codeunit	60116	IrnEwaySezApiWithoutPayFalseSC	IrnEwaySezApiWithoutPayFalseSC		WYS000-Customization
+Codeunit	60117	GeneralJournalBatches	GeneralJournalBatches		WYS000-Customization
+Codeunit	60118	SendEmailAttachReport	SendEmailAttachReport		WYS000-Customization
+Codeunit	60119	PostedSalCrmeUpdateCodeunit	PostedSalCrmeUpdateCodeunit		WYS000-Customization
+Codeunit	60120	SalesPurchDebitNoteCodeunit	SalesPurchDebitNoteCodeunit		WYS000-Customization
+Codeunit	60121	Ewaybilldetails	Ewaybilldetails		WYS000-Customization
+Codeunit	60122	IrnEwayExportwithpaymentFalse	IrnEwayExportwithpaymentFalse		WYS000-Customization
+Codeunit	60123	IrnEwayExportwithoutpayFalseSC	IrnEwayExportwithoutpayFalseSC		WYS000-Customization
+Codeunit	60124	IrnEwaySEZwithpaymentFalse	IrnEwaySEZwithpaymentFalse		WYS000-Customization
+Codeunit	60125	SalesInvEwaybilldetails	SalesInvEwaybilldetails		WYS000-Customization
+Codeunit	60126	IrnEwaySezWithoutPayTrueSC	IrnEwaySezWithoutPayTrueSC		WYS000-Customization
+Codeunit	60127	CustomAddressCodeunit	CustomAddressCodeunit		WYS000-Customization
+Codeunit	60129	Sales Update Posting - Edit	Sales Update Posting - Edit		WYS000-Customization
+Codeunit	60130	Purchase Update Posting - Edit	Purchase Update Posting - Edit		WYS000-Customization
+Codeunit	60131	Sales Cr Note Update Post Edit	Sales Cr Note Update Post Edit		WYS000-Customization
+Codeunit	60132	Purch Cr Update Posting - Edit	Purch Cr Update Posting - Edit		WYS000-Customization
+Codeunit	60133	UpdateParentItemNo	UpdateParentItemNo		WYS000-Customization
+Codeunit	60134	Update CRMOrder - Edit	Update CRMOrder - Edit		WYS000-Customization
+Codeunit	60135	Gen. Led Entries - Edit	Gen. Led Entries - Edit		WYS000-Customization
+Codeunit	60136	Cust. Led Entries - Edit	Cust. Led Entries - Edit		WYS000-Customization
+Codeunit	60137	Vend. Led Entries - Edit	Vend. Led Entries - Edit		WYS000-Customization
+Codeunit	60138	IrnEwayExpWithoutPaywithCur	IrnEwayExpWithoutPaywithCur		WYS000-Customization
+Codeunit	60139	IrnEwayExportwithPayWithCurr	IrnEwayExportwithPayWithCurr		WYS000-Customization
+Codeunit	60140	IrnEwaySezApiWithoutPaywithCur	IrnEwaySezApiWithoutPaywithCur		WYS000-Customization
+Codeunit	60141	IrnEwaySEZWithPaywithCur	IrnEwaySEZWithPaywithCur		WYS000-Customization
+Codeunit	60142	IrnEwaySezApiWithPaywithCurSC	IrnEwaySezApiWithPaywithCurSC		WYS000-Customization
+Codeunit	60143	IrnEwaySEZWithPaywithCurSC	IrnEwaySEZWithPaywithCurSC		WYS000-Customization
+Codeunit	60144	IrnEwayExpWithoutPaywithCurSC	IrnEwayExpWithoutPaywithCurSC		WYS000-Customization
+Codeunit	60145	IrnEwayExportwithPayWithCurrSC	IrnEwayExportwithPayWithCurrSC		WYS000-Customization
+Codeunit	60146	Qr Code-Update	Qr Code-Update		WYS000-Customization
+Codeunit	60147	Import-Json Response	Import-Json Response		WYS000-Customization
+Codeunit	60148	HSN-Report Codeunit	HSN-Report Codeunit		WYS000-Customization
+Codeunit	60900	Run_Code	Run_Code		AL_Wysetek_CL
+Codeunit	70100	Sales Shipment CR	Sales Shipment CR		WYS004-Reports
+Codeunit	70101	Update Parent - Edit	Update Parent - Edit		WYS004-Reports
+Codeunit	70102	GenLedAmountUpdate	GenLedAmountUpdate		WYS004-Reports
+Codeunit	70103	Update Parent Sales - Edit	Update Parent Sales - Edit		WYS004-Reports
+Codeunit	70104	RefInvNo-Codeunit	RefInvNo-Codeunit		WYS004-Reports
+Codeunit	70105	Update-UserId	Update-UserId		WYS004-Reports
+Codeunit	70106	Post Inventory Cost to G/L-Ext	Post Inventory Cost to G/L-Ext		WYS004-Reports
+Codeunit	70107	Dim-Mgt-CodeunitExt	Dim-Mgt-CodeunitExt		WYS004-Reports
+Codeunit	70119	Purchase Order Create Ext	Purchase Order Create Ext		WYS004-Reports
+Codeunit	70120	Update Purchase Orders	Update Purchase Orders		WYS004-Reports
+Codeunit	70121	Update Sales Orders	Update Sales Orders		WYS004-Reports
+Codeunit	70122	UpdatePostedPurchaseReceipts	UpdatePostedPurchaseReceipts		WYS004-Reports
+Codeunit	70123	UpdatePostedPurchaseInvoices	UpdatePostedPurchaseInvoices		WYS004-Reports
+Codeunit	70124	UpdatePostedPurchaseCrMemos	UpdatePostedPurchaseCrMemos		WYS004-Reports
+Codeunit	70125	Update Posted Sale Shipments	Update Posted Sale Shipments		WYS004-Reports
+Codeunit	70126	Update Posted Sale Invoices	Update Posted Sale Invoices		WYS004-Reports
+Codeunit	70127	UpdatePostedSaleCreMemos	UpdatePostedSaleCreMemos		WYS004-Reports
+Codeunit	80150	ItemLedger and GL/Entry update	ItemLedger and GL/Entry update		Wysetek_Deferal_Zero_Validation
+XMLport	50200	Sales Order Upload Utility	Sales Order Upload Utility		WY-Customizations
+XMLport	50201	Sales Order Upload Log	Sales Order Upload Log		WY-Customizations
+XMLport	50202	PO Serial Tracking Upload	PO Serial Tracking Upload Utility		WY-Customizations
+XMLport	50203	SO Serial Tracking Upload	SO Serial Tracking Upload Utility		WY-Customizations
+XMLport	50204	Export Items XMLport	Export Items		WY-Customizations
+XMLport	50205	Revenue Deferral Upload	Revenue Deferral Upload		WY-Customizations
+XMLport	50206	Expense Deferral Upload	Expense Deferral Upload		WY-Customizations
+XMLport	50207	Rev & Exp Deferral Upload	Rev & Exp Deferral Upload		WY-Customizations
+XMLport	50208	SO & PO Link Upload	SO & PO Link Upload		WY-Customizations
+XMLport	50600	Sales Order Upload Utility_	Sales Order Upload Utility -CRM		WYS006-Sales Upload Utility
+XMLport	50601	Sales Order Upload Log_	Sales Order Upload Log		WYS006-Sales Upload Utility
+XMLport	50602	SO Comment Upload	SO Comment Upload" -CRM		WYS006-Sales Upload Utility
+XMLport	60100	IRNUploadUtility	IRN Upload Utility		WYS000-Customization
+XMLport	60102	DMSUniversal	DMSUniversal		WYS000-Customization
+Page	50100	EnterpriseMasterListPage	Enterprise Master List	List	WYS002-MSMECustomization
+Page	50200	PO & SO Link Page	PO & SO Link Page	List	WY-Customizations
+Page	50201	Get Sales Lines	Get Sales Lines	List	WY-Customizations
+Page	50202	Purchase Serial No Tracking	Purchase Serial No Tracking	List	WY-Customizations
+Page	50203	Serial Tracking Log	Serial Tracking Log	List	WY-Customizations
+Page	50204	Sales Serial No Tracking	Sales Serial No Tracking	List	WY-Customizations
+Page	50205	Custom Billing Notification	Custom Billing Notification	List	WY-Customizations
+Page	50206	Deferral Lines List Page	Deferral Lines	List	WY-Customizations
+Page	50207	Outstanding Sales Lines	Outstanding Sales Lines	List	WY-Customizations
+Page	50208	Cr. Memo Serial No Tracking	Cr. Memo Serial No Tracking	List	WY-Customizations
+Page	50209	Purchase Serial No Tracking-2	Purchase Serial No Tracking- Order	List	WY-Customizations
+Page	50210	Sales Serial No Tracking Order	Sales Serial No Tracking Order	List	WY-Customizations
+Page	50211	Sales Cr. Serial No Tracking	Sales Cr. SerialNo Tracking	List	WY-Customizations
+Page	50212	Purch Cr. Serial No Tracking	Purch Cr. Memo Serial No Tracking	List	WY-Customizations
+Page	50213	Purch Cr. HeadSerialNoTracking	Purch Cr. Memo Header Serial No Tracking	List	WY-Customizations
+Page	50231	Deferral Upload Staging	Deferral Upload Staging	List	WY-Customizations
+Page	50251	Billing Frequency	Billing Frequency	List	WY-Customizations
+Page	50252	Deferral Order List	Deferral Order	List	WY-Customizations
+Page	50253	Deferral Order	Deferral Order	Document	WY-Customizations
+Page	50254	Deferral Order Subform	Lines	ListPart	WY-Customizations
+Page	50255	Force Close List	Sales Force Close	List	WY-Customizations
+Page	50256	Force Close Card	Sales Force Close Card	Document	WY-Customizations
+Page	50257	Force Close Subform	Lines	ListPart	WY-Customizations
+Page	50258	Purch Force Close List	Purchase Force Close	List	WY-Customizations
+Page	50259	Purch Force Close Card Page	Sales Force Close Card	Document	WY-Customizations
+Page	50260	Purch Force Close Subform	Lines	ListPart	WY-Customizations
+Page	50261	TDS Deduction Info	TDS Deduction Info	List	WY-Customizations
+Page	50262	Serial No Tracking List	Serial No Tracking List	List	WY-Customizations
+Page	50263	After Invoice Po Link	After Invoice Po Link	List	WY-Customizations
+Page	50265	Costing Reco Remaining Qty	Purchase Remaining Data	List	WY-Customizations
+Page	50266	Costing Reco Qty Sales	Sales Remaining Data	List	WY-Customizations
+Page	50267	Costing Reco Update	Costing Reconciliation Update	List	WY-Customizations
+Page	50268	Update Tally Document No.	Update Tally Document No.	List	WY-Customizations
+Page	50269	Serial No Tracking New	Serial No Tracking New	List	WY-Customizations
+Page	50500	Bank_Acc_Ledger_Entries_Copy	Bank Acc Ledger Entries Copy	List	WY-Reports
+Page	50501	Vendor Bank Account List copy	Vendor Bank Account List	List	WY-Reports
+Page	50502	custbankacccoppy	Customer Bank Account List	List	WY-Reports
+Page	50504	Costing Reco Update2	Costing Reco Nov Update	List	WY-Reports
+Page	50604	SalesOrderUploadUtility_Page	Sales Order Upload Utility	List	WYS006-Sales Upload Utility
+Page	50605	SOcommentupload_Page	Sales Order comment Upload Utility	List	WYS006-Sales Upload Utility
+Page	50701	CustCRMBusinessGroupPage	Customer CRM Business Group	List	WYS005-BCE-CRM Integration
+Page	50709	CustomerStagingMaster	Customer staging Master	List	WYS005-BCE-CRM Integration
+Page	50710	ItemStagingMaster	Item Staging Master	List	WYS005-BCE-CRM Integration
+Page	50711	SalesQtoSalesOStaggingMaster	Sales Quotes to Sales Orders Staging Master	List	WYS005-BCE-CRM Integration
+Page	50712	CommentStaggingMaster	Comment Stagging Master	List	WYS005-BCE-CRM Integration
+Page	50713	ProducImporttMaster	Product Import Master	List	WYS005-BCE-CRM Integration
+Page	50714	CustomerApiInsert	CustomerApiInsert	API	WYS005-BCE-CRM Integration
+Page	50715	ItemApiInsert	ItemApiInsert	API	WYS005-BCE-CRM Integration
+Page	50724	SalesQtoSalesOApi	Sales Quote to Sales Order API	API	WYS005-BCE-CRM Integration
+Page	50725	SalesCommentAPI	Sales Comment API	API	WYS005-BCE-CRM Integration
+Page	50726	CustomerResponseApi	Customer Response API	API	WYS005-BCE-CRM Integration
+Page	50727	ItemResponseApi	Item Response API	API	WYS005-BCE-CRM Integration
+Page	50728	SalesQuotetoSalesOResponse	Sales Quote to Sales Order Response API	API	WYS005-BCE-CRM Integration
+Page	50729	SalesCommentResponse	Sales Comment Response API	API	WYS005-BCE-CRM Integration
+Page	50730	ProductImportApi	Product Import Api	API	WYS005-BCE-CRM Integration
+Page	50736	ItemCRMBusinessGroupPage	Item CRM Business Group	List	WYS005-BCE-CRM Integration
+Page	50900	GL Entries Update-Vserve	GL Entries Update-Vserve	List	WY-Additional CR
+Page	50901	Item Appl Entry Update-Vserve	Item Appl Entry Update-Vserve	List	WY-Additional CR
+Page	50902	Item Ledg RemQty Update-Vserve	Item Ledg Update-Vserve	List	WY-Additional CR
+Page	50903	Item Ledger Entries-Vserve	Stock Entries-Vserve	List	WY-Additional CR
+Page	50904	Sales Line Update-Vserve	Sales Line Update-Vserve	List	WY-Additional CR
+Page	50905	Sales Line-Vserve	Sales Data-Vserve	List	WY-Additional CR
+Page	60101	LUTMasterPage	LOA/LUT List Page	List	WYS000-Customization
+Page	60102	NewLocationNoSeriesPage	No. Series	List	WYS000-Customization
+Page	60103	DeclarationTemplatePage	Declaration Template List	List	WYS000-Customization
+Page	60104	LUTCustomerPage	Customer Wise LOA	List	WYS000-Customization
+Page	60105	LUTLocationPage	Location Wise LUT	Document	WYS000-Customization
+Page	60106	Upt.-Subform-SalesInvLine	Lines	ListPart	WYS000-Customization
+Page	60107	Upt.-Subfrom-PurchInvLine	Lines	ListPart	WYS000-Customization
+Page	60108	EndConsumerDetailsPage	End Consumer List Page	List	WYS000-Customization
+Page	60109	NewLocationSalesQuotes	No. Series	List	WYS000-Customization
+Page	60110	NewLocationSalesInvoice	No. Series	List	WYS000-Customization
+Page	60111	NewLocationSalesReturnOder	No. Series	List	WYS000-Customization
+Page	60112	NewLocationSalesCrMemo	No. Series	List	WYS000-Customization
+Page	60113	NewLocPurchNoSeriesPage	No. Series	List	WYS000-Customization
+Page	60114	NewLocationPurchaseQuotes	No. Series	List	WYS000-Customization
+Page	60115	NewLocationPurcahseInvoice	No. Series	List	WYS000-Customization
+Page	60116	NewLocationPurchReturnOder	No. Series	List	WYS000-Customization
+Page	60117	NewLocationPurchCrMemo	No. Series	List	WYS000-Customization
+Page	60118	Sales Debit Note List	Sales Debit Note	List	WYS000-Customization
+Page	60119	Sales Debit Note	Sales Debit Note	Document	WYS000-Customization
+Page	60120	Sales Debit Note Subform	Debit Note Lines	ListPart	WYS000-Customization
+Page	60121	NewLocationSalesDebitNote	No. Series	List	WYS000-Customization
+Page	60122	NewLocationPurchDebit	No. Series	List	WYS000-Customization
+Page	60123	PurchaseDebitNoteList	Purchase Debit Note	List	WYS000-Customization
+Page	60124	Purchase Debit Note	Purchase Debit Note	Document	WYS000-Customization
+Page	60125	Purch. Debit  Note Subform	Debit Note Lines	ListPart	WYS000-Customization
+Page	60126	E-Invocie Ledger Entires	E-Invoice Ledger Entries	List	WYS000-Customization
+Page	60127	E-Way Bill Details List	E-Way Bill Generation	List	WYS000-Customization
+Page	60128	E-Way Bill List	E-way bill Details	List	WYS000-Customization
+Page	60129	E-Way Bill Subform	E-Way Bill Subform	Card	WYS000-Customization
+Page	60130	NewEwayBillPage	E-way Bill	Card	WYS000-Customization
+Page	60131	SalesINVEwayBillPage	E-way Bill	Card	WYS000-Customization
+Page	60132	EwayPartPage	EwayPartPage	CardPart	WYS000-Customization
+Page	60133	UpdateDetailsGenLedEnt	UpdateDetailsGenLedEnt	Card	WYS000-Customization
+Page	60134	UpdataData	UpdataData	List	WYS000-Customization
+Page	60135	NewUpdateReferenceInvNo	Update Reference Invoice No.	List	WYS000-Customization
+Page	60136	SalesCommentSheetFactbox	Comment	ListPart	WYS000-Customization
+Page	60137	PurchCommentListFactBox	Comment	ListPart	WYS000-Customization
+Page	60138	DocumentAttachmentDetails	Attached Documents	ListPart	WYS000-Customization
+Page	60139	Change Exc. Rate New	Change Exchange Rate	StandardDialog	WYS000-Customization
+Page	60207	Posting No. - Update Sales	Posting No. - Update Sales	Card	WYS000-Customization
+Page	60208	Posting No. - Update Purchase	Posting No. - Update Purchase	Card	WYS000-Customization
+Page	60209	PostNo. - Update Sales Cr Note	Posting No. - Update Sales Cr Note	Card	WYS000-Customization
+Page	60210	PostNo.- Update Purch Cr Note	Posting No. - Update Purchase Cr Note	Card	WYS000-Customization
+Page	60211	PostNo-Update Sales Debit Note	Posting No. - Update Sales Debit Note	Card	WYS000-Customization
+Page	60212	PostNo - Update Sales Inv	Posting No. - Update Sales Inv.	Card	WYS000-Customization
+Page	60213	PostNo - Update Purchase Debit	Posting No. - Update Purchase Debit Note	Card	WYS000-Customization
+Page	60214	PostNo - Update Purchase Inv.	Posting No. - Update Purchase Inv.	Card	WYS000-Customization
+Page	60215	Upt.-Det.Cust.Led.Entry	Detailed Cust. Ledg. Entry	ListPart	WYS000-Customization
+Page	60216	GenLedEntriesSubformPage	General Ledger Entries	ListPart	WYS000-Customization
+Page	60217	Dimensions -Update	General Ledger Entries	ListPart	WYS000-Customization
+Page	60218	CRM Order -Update Sales	CRM Order - Update Sales	Card	WYS000-Customization
+Page	60219	Ven. Led. Ent. Dim -Update	Vendor Ledger Entry	ListPart	WYS000-Customization
+Page	60220	Cust. Led. Ent. Dim -Update	Customer Ledger Entries	ListPart	WYS000-Customization
+Page	60221	Dimension- Update	Dimension- Update	Card	WYS000-Customization
+Page	60222	E-way Factbox	E-Way Bill Important Note	CardPart	WYS000-Customization
+Page	60243	E-Inv. Ledger Page	E-Inv. Ledger Details	CardPart	WYS000-Customization
+Page	60244	Upt.-SubformSal.Cr.MemoLine	Lines	ListPart	WYS000-Customization
+Page	70100	PurchaseParentUpdate	Purchase Lines	ListPart	WYS004-Reports
+Page	70101	Parent Det.-Update Purchase	Parent Det.- Update Purchase	Card	WYS004-Reports
+Page	70102	SalesParentUpdate	Sales Lines	ListPart	WYS004-Reports
+Query	4401	EXR Top Vendor Balance	Top Vendor Balance	Normal	Dynamics BC Excel Reports
+Query	4402	EXR Top Vendor Purchase	Top Vendor Purchase	Normal	Dynamics BC Excel Reports
+Query	4403	EXR Top Customer Balance	Top Customer Balance	Normal	Dynamics BC Excel Reports
+Query	4404	EXR Top Customer Sales	Top Customer Sale	Normal	Dynamics BC Excel Reports
+PageExtension	4401	EXR Accountant Role Center	EXR Accountant Role Center	9027	Dynamics BC Excel Reports
+PageExtension	4402	EXT Bus. Manager Role Center	EXT Bus. Manager Role Center	9022	Dynamics BC Excel Reports
+PageExtension	4403	EXT Company Detail	EXT Company Detail	1156	Dynamics BC Excel Reports
+PageExtension	4405	EXRARRoleCenter	EXRARRoleCenter	9077	Dynamics BC Excel Reports
+PageExtension	4406	EXRFinRoleCenter	EXRFinRoleCenter	8901	Dynamics BC Excel Reports
+PageExtension	4407	Fixed Asset List	Fixed Asset List	5601	Dynamics BC Excel Reports
+PageExtension	4408	Business Unit List	Business Unit List	240	Dynamics BC Excel Reports
+PageExtension	50002	PageExtension50002	PageExtension50002	25	Designer_08f99654-6811-4cad-a5d7-f0d410b8d1a9
+PageExtension	50003	PageExtension50003	PageExtension50003	96	Designer_08f99654-6811-4cad-a5d7-f0d410b8d1a9
+PageExtension	50102	VendorListPageExt	VendorListPageExt	27	WYS002-MSMECustomization
+PageExtension	50103	VendorCardPageExt	VendorCardPageExt	26	WYS002-MSMECustomization
+PageExtension	50104	VenLedEntPageExt	VenLedEntPageExt	29	WYS002-MSMECustomization
+PageExtension	50105	Posted Sales Inv Lines	Posted Sales Inv Lines	526	WYS002-MSMECustomization
+PageExtension	50106	Posted Purch Inv Lines	Posted Purch Inv Lines	529	WYS002-MSMECustomization
+PageExtension	50200	Sales Order Sub Ext	Sales Order Sub Ext	46	WY-Customizations
+PageExtension	50201	Posted Sales Shpt. Subform Ext	Posted Sales Shpt. Subform Ext	131	WY-Customizations
+PageExtension	50202	Posted Sales Inv Subform Ext	Posted Sales Inv Subform Ext	133	WY-Customizations
+PageExtension	50203	Posted Sales Cr. Memo Subform	Posted Sales Cr. Memo Subform	135	WY-Customizations
+PageExtension	50204	Posted Retrn Recpt Subform Ext	Posted Retrn Recpt Subform Ext	6661	WY-Customizations
+PageExtension	50205	Purchase Order Subform Ext	Purchase Order Subform Ext	54	WY-Customizations
+PageExtension	50206	Posted Purch. Rcpt. Sub Ext	Posted Purch. Rcpt. Sub Ext	137	WY-Customizations
+PageExtension	50207	Posted Purch. Inv Subform Ext	Posted Purch. Inv Subform Ext	139	WY-Customizations
+PageExtension	50208	Post Purch.Cr.Memo Subform Ext	Post Purch.Cr.Memo Subform Ext	141	WY-Customizations
+PageExtension	50209	Posted Return Shipt Sub Ext	Posted Return Shipt Sub Ext	6651	WY-Customizations
+PageExtension	50210	Cust.Ledger Entry Ext	Cust.Ledger Entry Ext	25	WY-Customizations
+PageExtension	50211	Vendor Ledger Entries Ext	Vendor Ledger Entries Ext	29	WY-Customizations
+PageExtension	50212	Sales Order Force Close Ext	Sales Order Force Close Ext	42	WY-Customizations
+PageExtension	50213	Purchase Order Force Close Ext	Purchase Order Force Close Ext	50	WY-Customizations
+PageExtension	50214	Sales Order Upload Utility	Sales Order Upload Utility	9305	WY-Customizations
+PageExtension	50215	General Journal-Ext	General Journal-Ext	39	WY-Customizations
+PageExtension	50216	Purch. Invoice Subform_Ext	Purch. Invoice Subform_Ext	55	WY-Customizations
+PageExtension	50217	Sales Credit Memo_Ext	Sales Credit Memo_Ext	96	WY-Customizations
+PageExtension	50218	Sales Invoice Subform_Ext	Sales Invoice Subform_Ext	47	WY-Customizations
+PageExtension	50219	Purch. Cr. Memo Subform_Ext	Purch. Cr. Memo Subform_Ext	98	WY-Customizations
+PageExtension	50220	GL Entry-Ext	GL Entry-Ext	20	WY-Customizations
+PageExtension	50221	Gen Ledger Setup-Ext	Gen Ledger Setup-Ext	118	WY-Customizations
+PageExtension	50222	Bank Payment Voucher-Ext	Bank Payment Voucher-Ext	18550	WY-Customizations
+PageExtension	50223	50223-Page-GlAccount-Ext	50223-Page-GlAccount-Ext	16	WY-Customizations
+PageExtension	50224	50224-postedDocLines-Ext.al	50224-postedDocLines-Ext.al	518	WY-Customizations
+PageExtension	50225	Posted Purchase Inv. Lines	Posted Purchase Inv. Lines	529	WY-Customizations
+PageExtension	50226	Posted Purchase Cr. Lines	Posted Purchase Cr. Lines	530	WY-Customizations
+PageExtension	50227	Posted Sale Cr. Lines	Posted Sale Cr. Lines	527	WY-Customizations
+PageExtension	50228	Posted Sale Inv Lines	Posted Sale Inv Lines	526	WY-Customizations
+PageExtension	50229	Posted purhc rec lines	Posted purhc rec lines	528	WY-Customizations
+PageExtension	50230	Posted sales shipline	Posted sales shipline	525	WY-Customizations
+PageExtension	50232	Posted Doc Lines	Posted Doc Lines	5852	WY-Customizations
+PageExtension	50233	Posted purch inv 2	Posted purch inv 2	5857	WY-Customizations
+PageExtension	50234	Posted purch rec	Posted purch rec	5856	WY-Customizations
+PageExtension	50235	Sales Lines-Ext	Sales Lines-Ext	516	WY-Customizations
+PageExtension	50236	Purchse Debit Note Sub-Form	Purchse Debit Note Sub-Form	60125	WY-Customizations
+PageExtension	50237	Sales Debit Note Sub-Form	Sales Debit Note Sub-Form	60120	WY-Customizations
+PageExtension	50238	Purchase Invoice-Ext	Purchase Invoice-Ext	51	WY-Customizations
+PageExtension	50239	Sales Credit Memo-Ext	Sales Credit Memo-Ext	44	WY-Customizations
+PageExtension	50240	Sales Order Archive-Ext	Sales Order Archive-Ext	5159	WY-Customizations
+PageExtension	50251	Deferral Template Card Ext	Deferral Template Card Ext	1700	WY-Customizations
+PageExtension	50252	General Journal Batches_Ext	General Journal Batches_Ext	251	WY-Customizations
+PageExtension	50258	Purchase Order Ext.	Purchase Order Ext.	9307	WY-Customizations
+PageExtension	50259	GL Account	GL Account	17	WY-Customizations
+PageExtension	50262	Apply Cust. Entries Ext	Apply Cust. Entries Ext	232	WY-Customizations
+PageExtension	50263	Posted Sales Shipments-Ext	Posted Sales Shipments-Ext	142	WY-Customizations
+PageExtension	50264	Posted Sales Invoices-Ext	Posted Sales Invoices-Ext	143	WY-Customizations
+PageExtension	50265	Sales Return Order List-Ext	Sales Return Order List-Ext	9304	WY-Customizations
+PageExtension	50266	Sales Credit Memos-Ext	Sales Credit Memos-Ext	9302	WY-Customizations
+PageExtension	50267	Sales Debit Note List-Ext	Sales Debit Note List-Ext	60118	WY-Customizations
+PageExtension	50268	Posted Sales Credit Memos-Ext	Posted Sales Credit Memos-Ext	144	WY-Customizations
+PageExtension	50269	Posted Purchase Receipts-Ext	Posted Purchase Receipts-Ext	145	WY-Customizations
+PageExtension	50270	Posted Purchase Invoices-Ext	Posted Purchase Invoices-Ext	146	WY-Customizations
+PageExtension	50271	Purchase Return Order List-Ext	Purchase Return Order List-Ext	9311	WY-Customizations
+PageExtension	50272	Purchase Credit Memos-Ext	Purchase Credit Memos-Ext	9309	WY-Customizations
+PageExtension	50273	Posted Purchase Cr Memos-Ext	Posted Purchase Cr Memos-Ext	147	WY-Customizations
+PageExtension	50274	PurchaseDebitNoteList-Ext	PurchaseDebitNoteList-Ext	60123	WY-Customizations
+PageExtension	50275	Journal Voucher Ext	Journal Voucher Ext	18557	WY-Customizations
+PageExtension	50276	Fixed Asset List-Ext	Fixed Asset List-Ext	5601	WY-Customizations
+PageExtension	50277	Purchase Order Archive-Ext	Purchase Order Archive-Ext	5167	WY-Customizations
+PageExtension	50278	Item Ledger Entries-EXT	Item Ledger Entries-EXT	38	WY-Customizations
+PageExtension	50279	Det. Vendor Ledgr. Entry	Det. Vendor Ledgr. Entry	574	WY-Customizations
+PageExtension	50280	Det Cust Ledger Entry-EXT	Det Cust Ledger Entry-EXT	573	WY-Customizations
+PageExtension	50500	chartofacc1	chartofacc1	16	WY-Reports
+PageExtension	50502	Accountantreportext1	Accountantreportext1	9027	WY-Reports
+PageExtension	50503	BusinessManagerreportext1	BusinessManagerreportext1	9022	WY-Reports
+PageExtension	50504	salesorderext1	salesorderext1	9006	WY-Reports
+PageExtension	50505	MyExtension	MyExtension	372	WY-Reports
+PageExtension	50506	BankAccReconExt	BankAccReconExt	380	WY-Reports
+PageExtension	50507	ApplyBankAccLedEntr_Ext	ApplyBankAccLedEntr_Ext	381	WY-Reports
+PageExtension	50508	BankAccStatLines	BankAccStatLines	384	WY-Reports
+PageExtension	50509	BAnkPayVou_Ext	BAnkPayVou_Ext	18550	WY-Reports
+PageExtension	50510	BAnkReceiptVouch_Ext	BAnkReceiptVouch_Ext	18553	WY-Reports
+PageExtension	50511	bankaccrecoheader	bankaccrecoheader	379	WY-Reports
+PageExtension	50512	vendorBankAccCard	vendorBankAccCard	425	WY-Reports
+PageExtension	50513	customerbankacccard	customerbankacccard	423	WY-Reports
+PageExtension	50514	vendor ext	vendor ext	27	WY-Reports
+PageExtension	50515	VenLedEntry_Ext	VenLedEntry_Ext	29	WY-Reports
+PageExtension	50516	customer_ext	customer_ext	22	WY-Reports
+PageExtension	50517	CustLedEntryExt	CustLedEntryExt	25	WY-Reports
+PageExtension	50601	Sales Order Upload Utility_	Sales Order Upload Utility_	9305	WYS006-Sales Upload Utility
+PageExtension	50602	General Journal-Ext_	General Journal-Ext_	39	WYS006-Sales Upload Utility
+PageExtension	50603	Purchase Order Ext._	Purchase Order Ext._	9307	WYS006-Sales Upload Utility
+PageExtension	50605	commentline	commentline	67	WYS006-Sales Upload Utility
+PageExtension	50606	salesline	salesline	516	WYS006-Sales Upload Utility
+PageExtension	50607	JounralVocher	JounralVocher	18557	WYS006-Sales Upload Utility
+PageExtension	50732	RibbonAdminPageExt	RibbonAdminPageExt	9024	WYS005-BCE-CRM Integration
+PageExtension	50733	RibbonBusinessMangerPageExt	RibbonBusinessMangerPageExt	9022	WYS005-BCE-CRM Integration
+PageExtension	50734	SalesOrderProcPageExt	SalesOrderProcPageExt	9006	WYS005-BCE-CRM Integration
+PageExtension	50735	SalesOrd-PageExt	SalesOrd-PageExt	42	WYS005-BCE-CRM Integration
+PageExtension	50736	Item-Page	Item-Page	30	WYS005-BCE-CRM Integration
+PageExtension	50900	TDSAdjJouExt	TDSAdjJouExt	18747	WY-Additional CR
+PageExtension	50901	TDSEntryExt	TDSEntryExt	18691	WY-Additional CR
+PageExtension	50911	GeneralLedgerEntriesExt	GeneralLedgerEntriesExt	20	WY-Additional CR
+PageExtension	50912	CustomerListExt	CustomerListExt	22	WY-Additional CR
+PageExtension	50913	VendorListExt	VendorListExt	27	WY-Additional CR
+PageExtension	50914	SalesOrderListExt	SalesOrderListExt	9305	WY-Additional CR
+PageExtension	50915	PurchaseOrderListExt	PurchaseOrderListExt	9307	WY-Additional CR
+PageExtension	50916	PostedSalesInvoiceExt	PostedSalesInvoiceExt	143	WY-Additional CR
+PageExtension	50917	PostedPurchaseInvoiceExt	PostedPurchaseInvoiceExt	146	WY-Additional CR
+PageExtension	50918	PostedSalesCreditMemoExt	PostedSalesCreditMemoExt	144	WY-Additional CR
+PageExtension	50919	PostedPurchaseCreditMemos	PostedPurchaseCreditMemos	147	WY-Additional CR
+PageExtension	60101	CustomerPageExt	CustomerPageExt	21	WYS000-Customization
+PageExtension	60102	VendorPageExt	VendorPageExt	26	WYS000-Customization
+PageExtension	60103	OrderAddressPageExt	OrderAddressPageExt	368	WYS000-Customization
+PageExtension	60104	ShipToAddressPageExt	ShipToAddressPageExt	300	WYS000-Customization
+PageExtension	60105	CompanyInfoPageExt	CompanyInfoPageExt	1	WYS000-Customization
+PageExtension	60106	SalesInvoiceHeaderPageExt	SalesInvoiceHeaderPageExt	132	WYS000-Customization
+PageExtension	60107	SalesHeaderPageExt	SalesHeaderPageExt	42	WYS000-Customization
+PageExtension	60108	SalesCrMemoHeaderPageExt	SalesCrMemoHeaderPageExt	134	WYS000-Customization
+PageExtension	60109	SalesShipmentHeaderPageExt	SalesShipmentHeaderPageExt	130	WYS000-Customization
+PageExtension	60110	ReturnReceiptHeaderPageExt	ReturnReceiptHeaderPageExt	6660	WYS000-Customization
+PageExtension	60111	PurchaseHeaderPageExt	PurchaseHeaderPageExt	50	WYS000-Customization
+PageExtension	60112	PurcahseInvoiceHeaderPageExt	PurcahseInvoiceHeaderPageExt	138	WYS000-Customization
+PageExtension	60113	PurchCrMemoHdrPageExt	PurchCrMemoHdrPageExt	140	WYS000-Customization
+PageExtension	60114	PurchRcptHeaderPageExt	PurchRcptHeaderPageExt	136	WYS000-Customization
+PageExtension	60115	ReturnShipmentHeaderPageExt	ReturnShipmentHeaderPageExt	6650	WYS000-Customization
+PageExtension	60116	SalesLinePageExt	SalesLinePageExt	516	WYS000-Customization
+PageExtension	60117	PaymentTermsPageExt	PaymentTermsPageExt	4	WYS000-Customization
+PageExtension	60118	LocationCardPageExt	LocationCardPageExt	5703	WYS000-Customization
+PageExtension	60119	SalesOrderListPageExt	SalesOrderListPageExt	9305	WYS000-Customization
+PageExtension	60120	UserSetupPageExt	UserSetupPageExt	119	WYS000-Customization
+PageExtension	60121	SalesQuotesListPageExt	SalesQuotesListPageExt	9300	WYS000-Customization
+PageExtension	60122	SalesInvoiceListPageExt	SalesInvoiceListPageExt	9301	WYS000-Customization
+PageExtension	60123	SalesCreditMemosListPageExt	SalesCreditMemosListPageExt	9302	WYS000-Customization
+PageExtension	60124	SalesReturnOrderListPageExt	SalesReturnOrderListPageExt	9304	WYS000-Customization
+PageExtension	60125	PostedSalesInvoicesPageExt	PostedSalesInvoicesPageExt	143	WYS000-Customization
+PageExtension	60126	PostedSalesCreditMemosPageExt	PostedSalesCreditMemosPageExt	144	WYS000-Customization
+PageExtension	60127	PostedReturnReceiptsPageExt	PostedReturnReceiptsPageExt	6662	WYS000-Customization
+PageExtension	60128	PostedSalesShipmentsPageExt	PostedSalesShipmentsPageExt	142	WYS000-Customization
+PageExtension	60129	SalesQuotePageExt	SalesQuotePageExt	41	WYS000-Customization
+PageExtension	60130	SalesInvoicePageExt	SalesInvoicePageExt	43	WYS000-Customization
+PageExtension	60131	SalesCredMemosPageExt	SalesCredMemosPageExt	44	WYS000-Customization
+PageExtension	60132	SalesReturnOrderList	SalesReturnOrderList	6630	WYS000-Customization
+PageExtension	60133	PurchaseOrderListPageExt	PurchaseOrderListPageExt	9307	WYS000-Customization
+PageExtension	60135	PurchaseInvoicesPageExt	PurchaseInvoicesPageExt	9308	WYS000-Customization
+PageExtension	60136	PurchInvoicesPageExt	PurchInvoicesPageExt	51	WYS000-Customization
+PageExtension	60137	PurchaseCreditMemosPageExt	PurchaseCreditMemosPageExt	9309	WYS000-Customization
+PageExtension	60138	PurchCrMemosPageExt	PurchCrMemosPageExt	52	WYS000-Customization
+PageExtension	60139	PurchaseReturnOrderListPageExt	PurchaseReturnOrderListPageExt	9311	WYS000-Customization
+PageExtension	60140	PurchaseReturnOrder	PurchaseReturnOrder	6640	WYS000-Customization
+PageExtension	60141	PostedPurchaseInvoicesPageExt	PostedPurchaseInvoicesPageExt	146	WYS000-Customization
+PageExtension	60142	PostedPurchCrtMemosPageExt	PostedPurchCrtMemosPageExt	147	WYS000-Customization
+PageExtension	60143	PostedPurchaseReceiptsPageExt	PostedPurchaseReceiptsPageExt	145	WYS000-Customization
+PageExtension	60144	PostedReturnShipmentsPageExt	PostedReturnShipmentsPageExt	6652	WYS000-Customization
+PageExtension	60145	GeneralJournalPageExt	GeneralJournalPageExt	39	WYS000-Customization
+PageExtension	60146	BankPaymentVoucherPageExt	BankPaymentVoucherPageExt	18550	WYS000-Customization
+PageExtension	60147	BankReceiptVoucherPageExt	BankReceiptVoucherPageExt	18553	WYS000-Customization
+PageExtension	60148	CashPaymentVoucherPageExt	CashPaymentVoucherPageExt	18554	WYS000-Customization
+PageExtension	60149	CashReceiptVoucherPageExt	CashReceiptVoucherPageExt	18555	WYS000-Customization
+PageExtension	60150	ContraVoucherPageExt	ContraVoucherPageExt	18556	WYS000-Customization
+PageExtension	60151	PostedGeneralJournalPageExt	PostedGeneralJournalPageExt	182	WYS000-Customization
+PageExtension	60152	CustomerLedgerEntriesPageExt	CustomerLedgerEntriesPageExt	25	WYS000-Customization
+PageExtension	60153	VendorLedgerEntriesPageExt	VendorLedgerEntriesPageExt	29	WYS000-Customization
+PageExtension	60154	BankAccLedEntPageExt	BankAccLedEntPageExt	372	WYS000-Customization
+PageExtension	60155	PostedSalesInvUpdate	PostedSalesInvUpdate	1355	WYS000-Customization
+PageExtension	60156	SalesInvoiceLinePageExtension	SalesInvoiceLinePageExtension	133	WYS000-Customization
+PageExtension	60157	PostedPurchInvoiceSubform	PostedPurchInvoiceSubform	529	WYS000-Customization
+PageExtension	60158	PostedPurchInvUpdate	PostedPurchInvUpdate	1351	WYS000-Customization
+PageExtension	60159	PurchaseQuotesPageListExt	PurchaseQuotesPageListExt	9306	WYS000-Customization
+PageExtension	60160	SalesOrderSubformPageExt	SalesOrderSubformPageExt	46	WYS000-Customization
+PageExtension	60161	BusRoleFinReport	BusRoleFinReport	9022	WYS000-Customization
+PageExtension	60162	SalesQuoteSubform	SalesQuoteSubform	95	WYS000-Customization
+PageExtension	60163	SalesInvoiceSubform	SalesInvoiceSubform	47	WYS000-Customization
+PageExtension	60164	SalesCrMemoSubform	SalesCrMemoSubform	96	WYS000-Customization
+PageExtension	60165	SalesReuOrderSubform	SalesReuOrderSubform	6631	WYS000-Customization
+PageExtension	60166	PurchaseQuoteSubform	PurchaseQuoteSubform	97	WYS000-Customization
+PageExtension	60167	PurchOrderSubform	PurchOrderSubform	54	WYS000-Customization
+PageExtension	60168	PurchInvoiceSubform	PurchInvoiceSubform	55	WYS000-Customization
+PageExtension	60169	PurchCrMemoSubform	PurchCrMemoSubform	98	WYS000-Customization
+PageExtension	60170	PurchaseReturnOrderSubform	PurchaseReturnOrderSubform	6641	WYS000-Customization
+PageExtension	60171	SalesReceivablesSetupPageExt	SalesReceivablesSetupPageExt	459	WYS000-Customization
+PageExtension	60172	StatesPageExt	StatesPageExt	18547	WYS000-Customization
+PageExtension	60173	GenJourBatchPageExt	GenJourBatchPageExt	251	WYS000-Customization
+PageExtension	60174	PostedPurchInvSub	PostedPurchInvSub	139	WYS000-Customization
+PageExtension	60175	PostedPurchCrMemo	PostedPurchCrMemo	141	WYS000-Customization
+PageExtension	60176	PostedPurchRecpt	PostedPurchRecpt	137	WYS000-Customization
+PageExtension	60177	PostedRetShip	PostedRetShip	6651	WYS000-Customization
+PageExtension	60178	PostedSalesCrMemo	PostedSalesCrMemo	135	WYS000-Customization
+PageExtension	60179	PostedRetRecipt	PostedRetRecipt	6661	WYS000-Customization
+PageExtension	60180	PostedSalesShip	PostedSalesShip	131	WYS000-Customization
+PageExtension	60181	JournalVoucherPageExt	JournalVoucherPageExt	18557	WYS000-Customization
+PageExtension	60182	GeneralLedgerEntriesPageExt	GeneralLedgerEntriesPageExt	20	WYS000-Customization
+PageExtension	60183	LocationListPageExt	LocationListPageExt	15	WYS000-Customization
+PageExtension	60184	ItemPageExt	ItemPageExt	30	WYS000-Customization
+PageExtension	60185	DMSCustomer	DMSCustomer	22	WYS000-Customization
+PageExtension	60186	DMSVendor	DMSVendor	27	WYS000-Customization
+PageExtension	60187	PostedSalesCrMemoUpdate	PostedSalesCrMemoUpdate	1354	WYS000-Customization
+PageExtension	60188	SalesComLinePageExt	SalesComLinePageExt	67	WYS000-Customization
+PageExtension	60189	PurchLinePageExt	PurchLinePageExt	66	WYS000-Customization
+PageExtension	60190	GLAccountPageExt	GLAccountPageExt	16	WYS000-Customization
+PageExtension	60191	GLAccountPageCard	GLAccountPageCard	17	WYS000-Customization
+PageExtension	60192	ItemListPageExt	ItemListPageExt	31	WYS000-Customization
+PageExtension	60193	Customerlookup	Customerlookup	33	WYS000-Customization
+PageExtension	60194	ItemLoopageExt	ItemLoopageExt	32	WYS000-Customization
+PageExtension	60195	fixed	fixed	5601	WYS000-Customization
+PageExtension	60196	ItemLedEnter	ItemLedEnter	38	WYS000-Customization
+PageExtension	60197	GLAccoutLookupPage	GLAccoutLookupPage	18	WYS000-Customization
+PageExtension	60198	CurrenciesPageExt	CurrenciesPageExt	5	WYS000-Customization
+PageExtension	60199	vendorLookup	vendorLookup	34	WYS000-Customization
+PageExtension	60200	FALedgerEntries	FALedgerEntries	5604	WYS000-Customization
+PageExtension	60202	detailed gst led enrty ext	detailed gst led enrty ext	18000	WYS000-Customization
+PageExtension	60203	ValueEntryPageExt	ValueEntryPageExt	5802	WYS000-Customization
+PageExtension	60204	GSTLedgeEntryPageExt	GSTLedgeEntryPageExt	18002	WYS000-Customization
+PageExtension	60205	TDSAdjustmentJournal	TDSAdjustmentJournal	18747	WYS000-Customization
+PageExtension	60206	DetCustLedgEntPageExt	DetCustLedgEntPageExt	573	WYS000-Customization
+PageExtension	60207	Fixedassetcard	Fixedassetcard	5600	WYS000-Customization
+PageExtension	60208	GenJouTemplates	GenJouTemplates	101	WYS000-Customization
+PageExtension	60912	CustLegEntry_Ext1	CustLegEntry_Ext1	25	AL_Wysetek_CL
+PageExtension	60913	DetailedCustLedEntry_Ext1	DetailedCustLedEntry_Ext1	573	AL_Wysetek_CL
+PageExtension	70100	SalesordReport	SalesordReport	42	WYS004-Reports
+PageExtension	70101	PurchordReport	PurchordReport	50	WYS004-Reports
+PageExtension	70103	SalesComment	SalesComment	96	WYS004-Reports
+PageExtension	70104	PurchComment	PurchComment	98	WYS004-Reports
+PageExtension	70105	PostedSalesInvLine	PostedSalesInvLine	526	WYS004-Reports
+PageExtension	70106	PostedPurchInvLine	PostedPurchInvLine	529	WYS004-Reports
+PageExtension	70107	PostedSalesShipmentLine	PostedSalesShipmentLine	525	WYS004-Reports
+PageExtension	70108	PostedPurchReceiptLine	PostedPurchReceiptLine	528	WYS004-Reports
+PageExtension	70109	PostedPurchCrMemoLine	PostedPurchCrMemoLine	530	WYS004-Reports
+PageExtension	70110	PostedSalesCrMemoLine	PostedSalesCrMemoLine	527	WYS004-Reports
+PageExtension	70111	PostedReturnReceiptLine	PostedReturnReceiptLine	6663	WYS004-Reports
+PageExtension	70112	PostedReturnShipmentLines	PostedReturnShipmentLines	6653	WYS004-Reports
+PageExtension	70113	PostedPurchInvList	PostedPurchInvList	146	WYS004-Reports
+PageExtension	70114	PostedPurchCrMemoList	PostedPurchCrMemoList	147	WYS004-Reports
+PageExtension	70115	PostedSalesInvList	PostedSalesInvList	143	WYS004-Reports
+PageExtension	70116	PostedSalesCrMemoList	PostedSalesCrMemoList	144	WYS004-Reports
+PageExtension	70117	PurchOrderSubFormExt	PurchOrderSubFormExt	54	WYS004-Reports
+PageExtension	70118	Purchase	Purchase	518	WYS004-Reports
+PageExtension	70119	UpdateGenLed	UpdateGenLed	60216	WYS004-Reports
+PageExtension	70120	FixedAssetGLJournal	FixedAssetGLJournal	5628	WYS004-Reports
+PageExtension	70121	UserId-PageExt	UserId-PageExt	20	WYS004-Reports
+PageExtension	70122	PurchLineExt	PurchLineExt	518	WYS004-Reports
+PageExtension	70123	GenLedSetupExt	GenLedSetupExt	118	WYS004-Reports
+PageExtension	70124	SaleLineExt	SaleLineExt	516	WYS004-Reports
+PageExtension	70125	DimensionValuesPageExt	DimensionValuesPageExt	537	WYS004-Reports
+PageExtension	70126	SaleInvLineExt	SaleInvLineExt	526	WYS004-Reports
+PageExtension	70127	SaleInvLineSubformExt	SaleInvLineSubformExt	47	WYS004-Reports
+PageExtension	70128	SaleCrMemoLineExt	SaleCrMemoLineExt	527	WYS004-Reports
+PageExtension	70129	SaleCrMemoSubformExt	SaleCrMemoSubformExt	96	WYS004-Reports
+PageExtension	70130	RetRcptLineExt	RetRcptLineExt	6667	WYS004-Reports
+PageExtension	70131	PosSaleCrMemoExt	PosSaleCrMemoExt	135	WYS004-Reports
+PageExtension	70132	RetRcptExt	RetRcptExt	6661	WYS004-Reports
+PageExtension	70133	PurchRcptLineExt	PurchRcptLineExt	5806	WYS004-Reports
+PageExtension	70134	PurchRcptExt	PurchRcptExt	137	WYS004-Reports
+PageExtension	70135	PurchInvLineExt	PurchInvLineExt	529	WYS004-Reports
+PageExtension	70136	PurchInvSubformExt	PurchInvSubformExt	55	WYS004-Reports
+PageExtension	70137	PurchCrMemoLineExt	PurchCrMemoLineExt	530	WYS004-Reports
+PageExtension	70138	PurchCrMemoExt	PurchCrMemoExt	98	WYS004-Reports
+PageExtension	70139	PurchCrSubformExt	PurchCrSubformExt	141	WYS004-Reports
+PageExtension	70140	RetShipLineExt	RetShipLineExt	6657	WYS004-Reports
+PageExtension	70141	RetShipExt	RetShipExt	6653	WYS004-Reports
+PageExtension	70142	RetShipSubform	RetShipSubform	6651	WYS004-Reports
+PageExtension	70143	GenJouExt	GenJouExt	39	WYS004-Reports
+PageExtension	70144	GLEntryExt	GLEntryExt	20	WYS004-Reports
+PageExtension	70145	Cust-Led-Ent.PageExt	Cust-Led-Ent.PageExt	25	WYS004-Reports
+PageExtension	70146	VenLedEntryExt	VenLedEntryExt	29	WYS004-Reports
+PageExtension	70147	BankLedEntryExt	BankLedEntryExt	372	WYS004-Reports
+PageExtension	70148	SalesOdrSubform	SalesOdrSubform	46	WYS004-Reports
+PageExtension	70149	SalesDebitNote	SalesDebitNote	60120	WYS004-Reports
+PageExtension	70150	PurchDebitNote	PurchDebitNote	60125	WYS004-Reports
+PageExtension	70151	SalesLineSubForm	SalesLineSubForm	46	WYS004-Reports
+PageExtension	70152	PurchOrderSub-form	PurchOrderSub-form	54	WYS004-Reports
+PageExtension	70153	PostedSaleInvSub-form	PostedSaleInvSub-form	133	WYS004-Reports
+PageExtension	70154	PostedSaleShipSub-form	PostedSaleShipSub-form	131	WYS004-Reports
+PageExtension	70155	PostedPurchInvSub-form	PostedPurchInvSub-form	139	WYS004-Reports
+PageExtension	70156	SalesInvoiceExt	SalesInvoiceExt	43	WYS004-Reports
+PageExtension	70157	salesorderlistExt	salesorderlistExt	9305	WYS004-Reports
+PageExtension	70158	SalesOrderExt	SalesOrderExt	42	WYS004-Reports
+PageExtension	70159	POListPageExt	POListPageExt	9307	WYS004-Reports
+PageExtension	70160	POCardPageExt	POCardPageExt	50	WYS004-Reports
+PageExtension	70161	purchaseinvoiceext	purchaseinvoiceext	51	WYS004-Reports
+PageExtension	70166	GlEntries	GlEntries	20	WYS004-Reports
+PageExtension	70167	postedpurchaseinvExt	postedpurchaseinvExt	146	WYS004-Reports
+PageExtension	70168	postedpurchasercptExt	postedpurchasercptExt	145	WYS004-Reports
+PageExtension	70169	postedpurchaseCrMemoExt	postedpurchaseCrMemoExt	147	WYS004-Reports
+PageExtension	70170	postedSalesShipment	postedSalesShipment	142	WYS004-Reports
+PageExtension	70171	postedSalesInvoice	postedSalesInvoice	143	WYS004-Reports
+PageExtension	70172	postedSalesCr_Memo	postedSalesCr_Memo	144	WYS004-Reports
+PageExtension	70173	PurchCredMmeo	PurchCredMmeo	52	WYS004-Reports
+PageExtension	70174	SaleCredMemoExt	SaleCredMemoExt	44	WYS004-Reports
+PageExtension	70175	JournalVouchPageExt	JournalVouchPageExt	18557	WYS004-Reports
+PageExtension	80150	salesordersubform	salesordersubform	46	Wysetek_Deferal_Zero_Validation
+PageExtension	80151	purchaseordersubform1	purchaseordersubform1	54	Wysetek_Deferal_Zero_Validation
+PageExtension	80154	purchasecreditmemosubform	purchasecreditmemosubform	98	Wysetek_Deferal_Zero_Validation
+PageExtension	80155	salescreditmemosubform	salescreditmemosubform	96	Wysetek_Deferal_Zero_Validation
+PageExtension	80156	postedinvoicelinessubform	postedinvoicelinessubform	139	Wysetek_Deferal_Zero_Validation
+PageExtension	80157	postedsalesinvoicelinessubform	postedsalesinvoicelinessubform	133	Wysetek_Deferal_Zero_Validation
+PageExtension	80158	postedsalescreditmemosubform	postedsalescreditmemosubform	135	Wysetek_Deferal_Zero_Validation
+PageExtension	80159	postedpurchasecrdtmemosubform	postedpurchasecrdtmemosubform	141	Wysetek_Deferal_Zero_Validation
+PageExtension	80160	itemledgerentries	itemledgerentries	38	Wysetek_Deferal_Zero_Validation
+PageExtension	80161	valueentries	valueentries	5802	Wysetek_Deferal_Zero_Validation
+PageExtension	80162	GLEntries	GLEntries	20	Wysetek_Deferal_Zero_Validation
+PageExtension	80163	postedpurchasereciept1	postedpurchasereciept1	137	Wysetek_Deferal_Zero_Validation
+PageExtension	80164	PostedRetShipSubform_EXT	PostedRetShipSubform_EXT	6651	Wysetek_Deferal_Zero_Validation
+PageExtension	80165	Posted Sales Shpt. Subform_EXT	Posted Sales Shpt. Subform_EXT	131	Wysetek_Deferal_Zero_Validation
+TableExtension	50100	VendorTableExt	VendorTableExt	23	WYS002-MSMECustomization
+TableExtension	50101	VendLedEnt	VendLedEnt	25	WYS002-MSMECustomization
+TableExtension	50200	Sales Header EXT PAN No.	Sales Header EXT PAN No.	36	WY-Customizations
+TableExtension	50201	Sales Ship Header EXT PAN No.	Sales Ship Header EXT PAN No.	110	WY-Customizations
+TableExtension	50202	Sales Inv Header EXT PAN No.	Sales Inv Header EXT PAN No.	112	WY-Customizations
+TableExtension	50203	Cust Ledg Entry EXT PAN No.	Cust Ledg Entry EXT PAN No.	21	WY-Customizations
+TableExtension	50204	Sales Cr.Memo Header Ext	Sales Cr.Memo Header Ext	114	WY-Customizations
+TableExtension	50205	Return Receipt Header Ext	Return Receipt Header Ext	6660	WY-Customizations
+TableExtension	50206	Purch Header Ext PAN No.	Purch Header Ext PAN No.	38	WY-Customizations
+TableExtension	50207	Purch. Rcpt. Header Ext	Purch. Rcpt. Header Ext	120	WY-Customizations
+TableExtension	50208	Purch. Inv. Header Ext	Purch. Inv. Header Ext	122	WY-Customizations
+TableExtension	50209	Purch. Cr. Memo Hdr. Ext	Purch. Cr. Memo Hdr. Ext	124	WY-Customizations
+TableExtension	50210	Return Shipment Header Ext	Return Shipment Header Ext	6650	WY-Customizations
+TableExtension	50211	Vendor Ledger Entry Ext	Vendor Ledger Entry Ext	25	WY-Customizations
+TableExtension	50212	Sales Line Ext	Sales Line Ext	37	WY-Customizations
+TableExtension	50213	Sales Ship Lines Ext	Sales Ship Lines Ext	111	WY-Customizations
+TableExtension	50214	Sales Inv Lines Ext	Sales Inv Lines Ext	113	WY-Customizations
+TableExtension	50215	Sales Cr. Memo Line Ext	Sales Cr. Memo Line Ext	115	WY-Customizations
+TableExtension	50216	Return Receipt Line Ext	Return Receipt Line Ext	6661	WY-Customizations
+TableExtension	50217	Purchase Lines Ext	Purchase Lines Ext	39	WY-Customizations
+TableExtension	50218	Purch. Rcpt. Line Ext	Purch. Rcpt. Line Ext	121	WY-Customizations
+TableExtension	50219	Purch. Inv. Line Ext	Purch. Inv. Line Ext	123	WY-Customizations
+TableExtension	50220	Purch. Cr. Memo Line Ext	Purch. Cr. Memo Line Ext	125	WY-Customizations
+TableExtension	50221	Return Shipment Line Ext	Return Shipment Line Ext	6651	WY-Customizations
+TableExtension	50222	Detailed Cust. Ledg. Entry Ext	Detailed Cust. Ledg. Entry Ext	379	WY-Customizations
+TableExtension	50223	Detailed Ven Ledg. Entry Ext	Detailed Ven Ledg. Entry Ext	380	WY-Customizations
+TableExtension	50224	Gen Ledger Setup-Ext	Gen Ledger Setup-Ext	98	WY-Customizations
+TableExtension	50225	50225-G/LAccount.TableExt	50225-G/LAccount.TableExt	15	WY-Customizations
+TableExtension	50261	Deferral Template Ext	Deferral Template Ext	1700	WY-Customizations
+TableExtension	50262	Gen. Journal Line Ext	Gen. Journal Line Ext	81	WY-Customizations
+TableExtension	50263	G/L Entry Ext	G/L Entry Ext	17	WY-Customizations
+TableExtension	50264	Gen. Journal Batch-Ext	Gen. Journal Batch-Ext	232	WY-Customizations
+TableExtension	50507	GL Account-Ext	GL Account-Ext	15	WY-Reports
+TableExtension	50513	Bank_AccountLedgerEntry_Ext	Bank_AccountLedgerEntry_Ext	271	WY-Reports
+TableExtension	50514	Gen_Jour_Ext	Gen_Jour_Ext	81	WY-Reports
+TableExtension	50515	BankAccReconciliationLine_Ext	BankAccReconciliationLine_Ext	274	WY-Reports
+TableExtension	50516	BankAccStatementLine_Ext	BankAccStatementLine_Ext	276	WY-Reports
+TableExtension	50517	VebBankAcc	VebBankAcc	288	WY-Reports
+TableExtension	50518	CustBankAcc	CustBankAcc	287	WY-Reports
+TableExtension	50519	VenTop10TemporaryRec	VenTop10TemporaryRec	267	WY-Reports
+TableExtension	50520	CustLedgerEntry_Ext	CustLedgerEntry_Ext	21	WY-Reports
+TableExtension	50521	VendLedgerEntry_Ext	VendLedgerEntry_Ext	25	WY-Reports
+TableExtension	50522	vendor1EXT	vendor1EXT	23	WY-Reports
+TableExtension	50607	commentline	commentline	44	WYS006-Sales Upload Utility
+TableExtension	50608	salesline1	salesline1	37	WYS006-Sales Upload Utility
+TableExtension	50700	SalesLine-TableExt	SalesLine-TableExt	37	WYS005-BCE-CRM Integration
+TableExtension	50701	SalesComLine-TableExt	SalesComLine-TableExt	44	WYS005-BCE-CRM Integration
+TableExtension	50702	Sales-Ship-TableExt	Sales-Ship-TableExt	111	WYS005-BCE-CRM Integration
+TableExtension	50703	Sales-Inv-TableExt	Sales-Inv-TableExt	113	WYS005-BCE-CRM Integration
+TableExtension	50704	Sales-Cr-TableExt	Sales-Cr-TableExt	115	WYS005-BCE-CRM Integration
+TableExtension	50900	TDSEntryExt	TDSEntryExt	18689	WY-Additional CR
+TableExtension	50901	TDSAdjJouExt	TDSAdjJouExt	18747	WY-Additional CR
+TableExtension	50902	GenJouLineExt	GenJouLineExt	81	WY-Additional CR
+TableExtension	50903	GLEntryExt	GLEntryExt	17	WY-Additional CR
+TableExtension	50918	ILEExt	ILEExt	32	WY-Additional CR
+TableExtension	50919	salesHead	salesHead	36	WY-Additional CR
+TableExtension	50920	SaleShip	SaleShip	110	WY-Additional CR
+TableExtension	50921	SaleInv	SaleInv	112	WY-Additional CR
+TableExtension	50922	SaleCrMemo	SaleCrMemo	114	WY-Additional CR
+TableExtension	50923	RetRcpt	RetRcpt	6660	WY-Additional CR
+TableExtension	50924	RetRcptLine	RetRcptLine	6661	WY-Additional CR
+TableExtension	50925	salesLine	salesLine	37	WY-Additional CR
+TableExtension	50926	SaleInvLine	SaleInvLine	113	WY-Additional CR
+TableExtension	50927	SaleCrMemoLine	SaleCrMemoLine	115	WY-Additional CR
+TableExtension	50928	SaleShipLine	SaleShipLine	111	WY-Additional CR
+TableExtension	60101	CompanyInfoTableExt	CompanyInfoTableExt	79	WYS000-Customization
+TableExtension	60102	CustomerTableExt	CustomerTableExt	18	WYS000-Customization
+TableExtension	60103	VendorTableExt	VendorTableExt	23	WYS000-Customization
+TableExtension	60104	OrderAddressTableExt	OrderAddressTableExt	224	WYS000-Customization
+TableExtension	60105	ShipToAddressTableExt	ShipToAddressTableExt	222	WYS000-Customization
+TableExtension	60106	SalesHeaderTableExt	SalesHeaderTableExt	36	WYS000-Customization
+TableExtension	60107	PurcahseHeaderTableExt	PurcahseHeaderTableExt	38	WYS000-Customization
+TableExtension	60108	SalesInvoiceHeadTableExt	SalesInvoiceHeadTableExt	112	WYS000-Customization
+TableExtension	60109	SalesCrMemoHeaderTableExt	SalesCrMemoHeaderTableExt	114	WYS000-Customization
+TableExtension	60110	PurcahseInvHeaderTableExt	PurcahseInvHeaderTableExt	122	WYS000-Customization
+TableExtension	60111	PurchCrMemoHdrTableExt	PurchCrMemoHdrTableExt	124	WYS000-Customization
+TableExtension	60112	ReturnReceiptHeaderTableExt	ReturnReceiptHeaderTableExt	6660	WYS000-Customization
+TableExtension	60113	SalesShipmentHeaderTableExt	SalesShipmentHeaderTableExt	110	WYS000-Customization
+TableExtension	60114	PurchRcptHeaderTableExt	PurchRcptHeaderTableExt	120	WYS000-Customization
+TableExtension	60115	ReturnShipmentHeaderTableExt	ReturnShipmentHeaderTableExt	6650	WYS000-Customization
+TableExtension	60116	SaleLineTableExt	SaleLineTableExt	37	WYS000-Customization
+TableExtension	60117	SalesInvoiceLineTableExt	SalesInvoiceLineTableExt	113	WYS000-Customization
+TableExtension	60118	SalesCrMemoLineTableExt	SalesCrMemoLineTableExt	115	WYS000-Customization
+TableExtension	60119	SalesShipmentLineTableExt	SalesShipmentLineTableExt	111	WYS000-Customization
+TableExtension	60120	ReturnReceiptLineTableExt	ReturnReceiptLineTableExt	6661	WYS000-Customization
+TableExtension	60121	PurchaseLineTableExt	PurchaseLineTableExt	39	WYS000-Customization
+TableExtension	60122	PurchRcptLineTableExt	PurchRcptLineTableExt	121	WYS000-Customization
+TableExtension	60123	PurchCrMemoLineTableExt	PurchCrMemoLineTableExt	125	WYS000-Customization
+TableExtension	60124	ReturnShipmentLineTableExt	ReturnShipmentLineTableExt	6651	WYS000-Customization
+TableExtension	60125	PurchInvLineTableExt	PurchInvLineTableExt	123	WYS000-Customization
+TableExtension	60126	LocationTableExt	LocationTableExt	14	WYS000-Customization
+TableExtension	60127	PaymentTermsTableExt	PaymentTermsTableExt	3	WYS000-Customization
+TableExtension	60128	UserSetupTableExt	UserSetupTableExt	91	WYS000-Customization
+TableExtension	60129	GeneralJournalTableExt	GeneralJournalTableExt	81	WYS000-Customization
+TableExtension	60130	PostedGenJournalLineTableExt	PostedGenJournalLineTableExt	181	WYS000-Customization
+TableExtension	60131	CustLedgerEntryTableExt	CustLedgerEntryTableExt	21	WYS000-Customization
+TableExtension	60132	VendorLedgerEntryTableExt	VendorLedgerEntryTableExt	25	WYS000-Customization
+TableExtension	60133	BankAccountLedgerEntryTableExt	BankAccountLedgerEntryTableExt	271	WYS000-Customization
+TableExtension	60134	GLEntryTableExt	GLEntryTableExt	17	WYS000-Customization
+TableExtension	60135	SalesRcvblSetup	SalesRcvblSetup	311	WYS000-Customization
+TableExtension	60136	StateTableExt	StateTableExt	18547	WYS000-Customization
+TableExtension	60137	GenJournalBatchTableExt	GenJournalBatchTableExt	232	WYS000-Customization
+TableExtension	60138	ItemTable	ItemTable	27	WYS000-Customization
+TableExtension	60139	SalesComment	SalesComment	44	WYS000-Customization
+TableExtension	60140	PurchComment	PurchComment	43	WYS000-Customization
+TableExtension	60141	GLAccountTableExt	GLAccountTableExt	15	WYS000-Customization
+TableExtension	60142	DimExtension	DimExtension	348	WYS000-Customization
+TableExtension	60143	DimValueExt	DimValueExt	349	WYS000-Customization
+TableExtension	60144	BankAccountExt	BankAccountExt	270	WYS000-Customization
+TableExtension	60145	FixedAsset	FixedAsset	5600	WYS000-Customization
+TableExtension	60146	CustomerBankAcc	CustomerBankAcc	287	WYS000-Customization
+TableExtension	60147	VendorbankAcc	VendorbankAcc	288	WYS000-Customization
+TableExtension	60148	GstGroup	GstGroup	18004	WYS000-Customization
+TableExtension	60149	HSNSAC	HSNSAC	18009	WYS000-Customization
+TableExtension	60150	GSTPosting	GSTPosting	18007	WYS000-Customization
+TableExtension	60151	TDSSetup	TDSSetup	18693	WYS000-Customization
+TableExtension	60152	TDSSection	TDSSection	18692	WYS000-Customization
+TableExtension	60153	TDsPost	TDsPost	18691	WYS000-Customization
+TableExtension	60154	TCSPostingsetup	TCSPostingsetup	18813	WYS000-Customization
+TableExtension	60155	CustomerPostinGrp	CustomerPostinGrp	92	WYS000-Customization
+TableExtension	60156	VendorPostingGrp	VendorPostingGrp	93	WYS000-Customization
+TableExtension	60157	InvtPostingGrp	InvtPostingGrp	94	WYS000-Customization
+TableExtension	60158	GenBusPostingGrp	GenBusPostingGrp	250	WYS000-Customization
+TableExtension	60159	GenProdPostingGrp	GenProdPostingGrp	251	WYS000-Customization
+TableExtension	60160	FAPostingGrp	FAPostingGrp	5606	WYS000-Customization
+TableExtension	60161	BankPostingGrp	BankPostingGrp	277	WYS000-Customization
+TableExtension	60162	ItemLedEnter	ItemLedEnter	32	WYS000-Customization
+TableExtension	60192	DetailedGst_LedEntry_EXT	DetailedGst_LedEntry_EXT	18001	WYS000-Customization
+TableExtension	60193	FaLedEntryExt	FaLedEntryExt	5601	WYS000-Customization
+TableExtension	60194	GSTLedgerEntry	GSTLedgerEntry	18005	WYS000-Customization
+TableExtension	60195	ValueEntry	ValueEntry	5802	WYS000-Customization
+TableExtension	60196	GenJouTemplateT	GenJouTemplateT	80	WYS000-Customization
+TableExtension	60900	CustLedEntry_Ext	CustLedEntry_Ext	21	AL_Wysetek_CL
+TableExtension	70100	SalesLTableExt	SalesLTableExt	37	WYS004-Reports
+TableExtension	70101	SalesHeaderExt	SalesHeaderExt	36	WYS004-Reports
+TableExtension	70102	GlEntry	GlEntry	17	WYS004-Reports
+TableExtension	70103	PurchLineTableExt	PurchLineTableExt	39	WYS004-Reports
+TableExtension	70104	Gen-Jour-TableExt	Gen-Jour-TableExt	81	WYS004-Reports
+TableExtension	70106	GLSetupExt	GLSetupExt	98	WYS004-Reports
+TableExtension	70107	CustLedEntryExt	CustLedEntryExt	21	WYS004-Reports
+TableExtension	70108	VenLedEntryExt	VenLedEntryExt	25	WYS004-Reports
+TableExtension	70109	BankLedEntryExt	BankLedEntryExt	271	WYS004-Reports
+TableExtension	70110	SaleShipLineExt	SaleShipLineExt	111	WYS004-Reports
+TableExtension	70111	SaleInvLineExt	SaleInvLineExt	113	WYS004-Reports
+TableExtension	70112	SaleCrMemoLineExt	SaleCrMemoLineExt	115	WYS004-Reports
+TableExtension	70113	RetRcptLineExt	RetRcptLineExt	6661	WYS004-Reports
+TableExtension	70114	PurchRcptLineExt	PurchRcptLineExt	121	WYS004-Reports
+TableExtension	70115	PurchInvLineExt	PurchInvLineExt	123	WYS004-Reports
+TableExtension	70116	PurchCrMemoLineExt	PurchCrMemoLineExt	125	WYS004-Reports
+TableExtension	70117	RetShipLineExt	RetShipLineExt	6651	WYS004-Reports
+TableExtension	70118	purchHeader	purchHeader	38	WYS004-Reports
+TableExtension	70119	salesHeader	salesHeader	36	WYS004-Reports
+TableExtension	80150	salesline1	salesline1	37	Wysetek_Deferal_Zero_Validation
+TableExtension	80151	purchaseline	purchaseline	39	Wysetek_Deferal_Zero_Validation
+TableExtension	80153	purchasecreditnoteline	purchasecreditnoteline	125	Wysetek_Deferal_Zero_Validation
+TableExtension	80154	salescreditnoteline	salescreditnoteline	115	Wysetek_Deferal_Zero_Validation
+TableExtension	80155	purchaseinvline	purchaseinvline	123	Wysetek_Deferal_Zero_Validation
+TableExtension	80156	salesinvline	salesinvline	113	Wysetek_Deferal_Zero_Validation
+TableExtension	80157	itemledgerentry	itemledgerentry	32	Wysetek_Deferal_Zero_Validation
+TableExtension	80158	value_entry	value_entry	5802	Wysetek_Deferal_Zero_Validation
+TableExtension	80159	GLEntry1	GLEntry1	17	Wysetek_Deferal_Zero_Validation
+TableExtension	80160	Sales Shipment Line-Ext1	Sales Shipment Line-Ext1	111	Wysetek_Deferal_Zero_Validation
+TableExtension	80161	Purch. Rcpt. Line-Ext	Purch. Rcpt. Line-Ext	121	Wysetek_Deferal_Zero_Validation
+TableExtension	80162	Return Shipment Line-EXT	Return Shipment Line-EXT	6651	Wysetek_Deferal_Zero_Validation
+TableExtension	80163	Item Journal Line Ext	Item Journal Line Ext	83	Wysetek_Deferal_Zero_Validation
+Enum	50507	ChartofAccounts	ChartofAccounts		WY-Reports
+Enum	50508	RegisterReportType	RegisterReportType		WY-Reports
+Enum	50721	StatusEnm	StatusEnm		WYS005-BCE-CRM Integration
+Enum	50722	BillingTypeEnm	BillingTypeEnm		WYS005-BCE-CRM Integration
+Enum	50723	SalesTypeEnm	SalesTypeEnm		WYS005-BCE-CRM Integration
+PermissionSet	4401	EXCEL REPORTS - OBJECTS	EXCEL REPORTS - OBJECTS		Dynamics BC Excel Reports
+PermissionSet	50000	GENERATEDPERMISSION1	GENERATEDPERMISSION1		WY-Additional CR
+PermissionSet	50200	GENERATEDPERMISSION5	GENERATEDPERMISSION5		WY-Customizations
+PermissionSet	50600	GENERATEDPERMISSION	GENERATEDPERMISSION		WYS006-Sales Upload Utility
+PermissionSet	50650	MIS-REPPERMISSION	MIS-REPPERMISSION		WYS-MIS Reports
+PermissionSet	50700	BCE_CRM_PERMISSION	BCE_CRM_PERMISSION		WYS005-BCE-CRM Integration
+PermissionSetExtension	4400	D365 BASIC ISV - FE Reports	D365 BASIC ISV - FE Reports	732	Dynamics BC Excel Reports
+PermissionSetExtension	4401	D365 BUS FULL ACCESS - FE Repo	D365 BUS FULL ACCESS - FE Repo	959	Dynamics BC Excel Reports
+PermissionSetExtension	4402	D365 BUS PREMIUM - FE Reports	D365 BUS PREMIUM - FE Reports	4716	Dynamics BC Excel Reports
+PermissionSetExtension	4403	D365 FULL ACCESS - FE Reports	D365 FULL ACCESS - FE Reports	6948	Dynamics BC Excel Reports
+PermissionSetExtension	4404	D365 READ - FE Reports	D365 READ - FE Reports	1044	Dynamics BC Excel Reports
